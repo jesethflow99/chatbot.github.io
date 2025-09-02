@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  
+}
+.app {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+  gap: 10px;
+  padding: 10px;
+  grid-template-areas: "aside main";
+}
+
+.aside {
+  grid-area: aside;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  grid-area: main;
+  background: url(https://static.vecteezy.com/system/resources/previews/033/366/741/large_2x/wallpaper-the-sky-mountains-river-switzerland-the-alps-switzerland-ai-generated-free-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.app > div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    height: 100vh;
+  }
+  .aside {
+    order: 2;
+    width: 100vw;
+    height: 40vh;
+    border-radius: 0;
+  }
+  .main {
+    order: 1;
+    width: 100vw;
+    flex: 1 1 0; /* Hace que .main ocupe el espacio restante */
+    min-height: 0;
+    padding: 10px;
+    border-radius: 0;
+  }
+}
