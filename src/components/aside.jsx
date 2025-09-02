@@ -5,7 +5,7 @@ const Aside = ({ onSelectBot }) => {
     const [bot, setBot] = useState([]);
 
     useEffect(() => {
-        fetch("/chatbots.json")
+        fetch("${process.env.PUBLIC_URL}/chatbots.json")
             .then(res => res.json())
             .then(data => setBot(data));
     }, []);
