@@ -1,0 +1,34 @@
+[
+  {
+    "chatbot_id": "profesor_historia",
+    "user_id": "usuario1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Hola, ¿quién fue Napoleón?",
+        "timestamp": "2025-08-28T10:00:00Z"
+      },
+      {
+        "role": "bot",
+        "content": "Napoleón Bonaparte fue un líder militar y emperador francés.",
+        "timestamp": "2025-08-28T10:00:05Z"
+      }
+    ]
+  },
+  {
+    "chatbot_id": "asistente_turismo",
+    "user_id": "usuario2",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "¿Qué puedo visitar en París?",
+        "timestamp": "2025-08-28T11:00:00Z"
+      },
+      {
+        "role": "bot",
+        "content": "Puedes visitar la Torre Eiffel, el Louvre y Notre Dame.",
+        "timestamp": "2025-08-28T11:00:05Z"
+      }
+    ]
+  }
+]

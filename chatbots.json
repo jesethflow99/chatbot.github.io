@@ -1,0 +1,45 @@
+[
+    {
+        "op": "replace",
+        "path": "/",
+        "value": [
+            {
+                "name": "Profesor de Historia",
+                "description": "Un profesor de historia virtual que ayuda a los estudiantes a aprender sobre eventos históricos, figuras y conceptos en ingles. (se enfoca en historia de México)",
+                "repo_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/223000/223105-Northern-Switzerland.jpg",
+                "image_url": "https://imgs.search.brave.com/rY7JeM7a4k-RWd8vIXtt4sYul4eJRK8mtxpH5pQJbTw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9kaWJ1am8tdmVj/dG9yaWFsLW1hZXN0/cm8tbGFwaXotcGl6/YXJyYS1wYWxhYnJh/cy1qdWdhci1qdWdh/ci1lbF83NTA3OTIt/MjExMzEuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA"
+            }]
+    },     {
+        "op": "replace",
+        "path": "/",
+        "value": [
+            {
+                "name": "Asistente de turismo",
+                "description": "Un asistente de turismo virtual que proporciona información sobre destinos turísticos, atracciones y actividades en ingles.",
+                "repo_url": "https://content-viajes.nationalgeographic.com.es/medio/2021/02/22/suiza_6db52769_1024x683.jpg",
+                "image_url": "https://imgs.search.brave.com/J_KDU50JDqr_LoaMbsX2vhxoiRKw0oZFYf7s0ktdT48/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vdml4aW9uZGln/aXRhbC92aXhpb25k/aWdpdGFsMjExMi92/aXhpb25kaWdpdGFs/MjExMjAwMDQ0LzE3/OTc5NDU2NS1jYXIl/QzMlQTFjdGVyLXBp/bG90by1kZS1waWUt/Y29uLWFyY2hpdm8t/eS1tYWxldCVDMyVB/RG4tcGFyYS1zdS1w/cm95ZWN0by15LW90/cm9zLmpwZz92ZXI9/Ng"
+            }]
+    },
+    {
+        "op": "replace",
+        "path": "/",
+        "value": [
+            {
+                "name": "Asistente de salud mental",
+                "description": "Un asistente de salud mental virtual que ofrece apoyo emocional, técnicas de manejo del estrés y recursos para el bienestar mental en ingles.",
+                "repo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-_GuL29XJvntA76RQewf1e5ZA_Wa7BHZCaA&s",
+                "image_url": "https://imgs.search.brave.com/FJ83QMILvboX9nBWWTsx3xpstfS0CvlS0OY_30srEHM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdG9yLXByZW1p/dW0vc2ltcGF0aWNv/LXBzaWNvbG9nby1k/aWJ1am9zLWFuaW1h/ZG9zLXNvZmEtaWx1/c3RyYWNpb24tdmVj/dG9yaWFsXzEwMjI5/MDEtMTI5ODExLmpw/Zz9zZW10PWFpc19o/eWJyaWQ"
+            }]
+    },
+    {
+        "op": "replace",
+        "path": "/",
+        "value": [
+            {
+                "name": "Entrevistador de trabajo",
+                "description": "Un entrevistador de trabajo virtual que ayuda a los usuarios a practicar sus habilidades de entrevista y proporciona retroalimentación en ingles.",
+                "repo_url": "https://assets-eu-01.kc-usercontent.com/9c63bc0c-2ba9-0195-23d1-64b99ed3a883/3c4cf7cd-a782-44ba-a164-72134bfc539e/Coworking-stmoritz-.jpg",
+                "image_url": "https://imgs.search.brave.com/vKi0fzbgNl1lOr-hDf1ZaF-6mA1M_CsMSr2ocqad2Gw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdC5k/ZXBvc2l0cGhvdG9z/LmNvbS8xNjQyNjg0/LzUyNDk0L3YvNDUw/L2RlcG9zaXRwaG90/b3NfNTI0OTQyMDE4/LXN0b2NrLWlsbHVz/dHJhdGlvbi1jYXJ0/b29uLWRyYXdpbmct/YnVzaW5lc3NtYW4u/anBn"
+            }]
+    }
+]
