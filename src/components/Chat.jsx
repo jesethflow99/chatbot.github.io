@@ -26,7 +26,7 @@ const Chat = ({ bot }) => {
     setInput("");
 
     try {
-      const response = await fetch("http://72.60.31.189/chat", {
+      const response = await fetch("https://api.artegraficacuau.com.mx/chat", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
